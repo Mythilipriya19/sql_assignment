@@ -22,3 +22,4 @@ from
     product_details
 group by
     sell_date;
+--assignment2
