@@ -18,3 +18,4 @@ FROM
     dept_tbl
 GROUP BY
     RIGHT(id_deptname, LEN(id_deptname) - CHARINDEX('-', id_deptname));
+-- assignment3
