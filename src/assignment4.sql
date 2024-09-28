@@ -19,4 +19,4 @@ MAX(signup_date) AS latest_signup_date,
 MIN(signup_date) AS first_signup_date,
 DATEDIFF(DAY, MIN(signup_date), MAX(signup_date) AS diff_in_days
 FROM email_signup where LOWER(email_id) like '%gmail.com';
-	
+--assignment4
