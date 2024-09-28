@@ -84,3 +84,4 @@ SELECT product_id, COUNT(*) AS duplicates
 FROM product
 GROUP BY product_id
 HAVING COUNT(*) > 1; 
+--assignment
